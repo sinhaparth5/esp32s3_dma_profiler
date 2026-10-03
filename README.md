@@ -100,4 +100,5 @@ host/usbdev.py       shared device open and stale-data drain
 CMakeLists.txt       TinyUSB unbuffered vendor mode (avoids a ZLP per packet)
 sdkconfig.defaults   target, PSRAM, CPU 240 MHz, TinyUSB on Core 0
 results/             latest profile output
+docs/report.tex      full write-up; docs/report.pdf is the compiled version
 ```

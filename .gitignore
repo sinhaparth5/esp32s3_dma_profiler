@@ -6,3 +6,9 @@ sdkconfig.old
 
 # Python
 __pycache__/
+
+# LaTeX build files
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
