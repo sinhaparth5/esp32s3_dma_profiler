@@ -70,6 +70,7 @@ The load can be `sram:` or `psram:` followed by `read`, `write`, `copy` or `stri
 uv run --with pyusb --with matplotlib host/profile.py results/profile
 ```
 This takes about 10 s. It prints the matrix and writes `results/profile.csv` and `results/profile.png`.
+To redraw the plot from the saved CSV without the board, add `--replot`.
 
 Run all four in one go:
 
